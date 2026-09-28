@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build React/Vite app
+      - name: Build React/Vite application
         run: npm run build
 
       - name: Setup Pages
